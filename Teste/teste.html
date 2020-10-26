@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Teste</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body onload="drawform()">
+	<canvas id="c1" width="400" height="200">
+	</canvas>
+	<canvas id='c2' width="400" height="200" onmousemove="drawRec(event)" onmouseout="erase()">
+	</canvas>
+	<div id="button">
+  		<input id="btn" type="button" value="change color" onclick="changecolor()">
+  		<input id='btnred' value='make red' type='button' onclick="dored()">
+  		<input id='btnblue' value='make blue' type='button' onclick="doblue()">
+	</div>
+	<div id="coord">
+	</div>
+</body>
+</html>

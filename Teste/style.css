@@ -1,0 +1,35 @@
+canvas{
+  width:400px;
+  height:200px;
+  border:1px solid black;
+}
+#d1 {
+  /*background-color: gray;*/
+  text-align:center;
+  margin:10px 0px 0px 40%;
+  padding:10px;
+  width:20%;
+  border:2px solid black;
+  font-size:150%;
+}
+#d2{
+  /*background-color:skyblue;*/
+  margin:20px;
+  padding:10px;
+  font-size:150%;
+  width:50%;
+  text-align:center;
+}
+input {
+  text-align:center;
+  width:100px;
+  float:left;
+  background-color:aquamarine;
+  margin-left:20px;
+}
+.color1{
+  background-color:orange;
+}
+.color2{
+  background-color:fuchsia;
+}
